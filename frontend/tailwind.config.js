@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
-import daisyui from "daisyui"; // Import must be at the top
+import daisyui from "daisyui"; // Importing in ESM style
 
 export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		extend: {},
 	},
-	plugins: [daisyui], // Correctly use daisyUI
+	plugins: [daisyui], // Using daisyUI
 };
+
+
+
